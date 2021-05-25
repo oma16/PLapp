@@ -2,7 +2,8 @@
   *start a local mongodb server connection */
 
  const mongoose = require('mongoose');
- const MONGO_URI = "mongodb://localhost:27017/plapp";
+ require('dotenv').config();
+ const {MONGO_URI} = process.env;
  
 
  
