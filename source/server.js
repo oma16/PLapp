@@ -6,6 +6,7 @@ const {PORT}= process.env;
 
 connectDB();
 
+
 // create a basic express route
 
 const userRoutes = require('./routes/userRoute');

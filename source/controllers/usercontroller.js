@@ -1,7 +1,7 @@
 const User = require('../models/user');
 
 exports.welcomeMessage = function(req, res, next){
-  res.status(200).send("Welcome to Mariam's world")
+  res.status(200).send(users)
 }
 
 exports.createNewUser = function(req, res){
