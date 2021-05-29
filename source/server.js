@@ -16,6 +16,7 @@ const app = express();
 //initialize express middleware
 
 app.use(express.json({extended:false}));
+app.get("/");
 app.use(userRoutes);
 
 //Port
