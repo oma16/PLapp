@@ -3,7 +3,7 @@ const router = express.Router();
 const userCtrl = require('../controllers/usercontroller');
 
 
-router.get('/', userCtrl.welcomeMessage)
+
 
 // post request to data to create a new user
 

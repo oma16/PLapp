@@ -1,8 +1,6 @@
 const User = require('../models/user');
 
-exports.welcomeMessage = function(req, res, next){
-  res.status(200).send(users)
-}
+
 
 exports.createNewUser = function(req, res){
     // retrieve new book details from the body
