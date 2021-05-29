@@ -14,8 +14,12 @@ POST request to '/users' route
 PUT request to '/users:id' route
 
 # Delete data
-DELETE request from '/users:id' route
+DELETE request to '/users:id' route
 
 # Links
+Request to all users
+
+https://payloadapp.herokuapp.com/ 
+
 https://github.com/oma16/PLapp.git
 
