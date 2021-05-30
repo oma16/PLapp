@@ -19,7 +19,7 @@ DELETE request to '/users:id' route
 # Links
 Request to all users
 
-https://payloadapp.herokuapp.com/ 
+https://payloadapp.herokuapp.com/users 
 
 https://github.com/oma16/PLapp.git
 

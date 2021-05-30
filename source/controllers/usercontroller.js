@@ -25,7 +25,7 @@ exports.createNewUser = function(req, res){
        if (err){
          return res.status(500).json({ message:err});
        }else{
-         return res.status(200).json({message:"Users retrived successfully", users});
+         return res.status(200).json({message:"Users retrieved successfully", users});
        }
   })
   }
